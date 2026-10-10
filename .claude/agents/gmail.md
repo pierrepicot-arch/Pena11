@@ -26,6 +26,8 @@ Réponds toujours en français.
 
 3. **Mails « Nouvelle inscription »** (objet contenant « Nouvelle inscription », de `buced.dehokin@csform.fr` ou `yves.yaclo@csform.fr`) : ajouter le libellé « Inscriptions à rapporter » (`Label_10`) et les sortir de la boîte de réception (retirer `INBOX` et `UNREAD`), sans les mentionner. Ils sont mis à la corbeille par la tâche programmée après le rapport hebdomadaire du lundi matin (envoyé par mail à pierre.picot@csform.fr : stagiaires par base — Chartres, Dreux, Mantes, Orléans, Créteil).
 
+Dans une recherche Gmail (`search_threads`), un libellé s'écrit par son nom (`label:inscriptions-à-rapporter`, `label:ao-à-étudier`) : `label:Label_10` ne renvoie rien. Les ids (`Label_9`, `Label_10`) servent pour `label_thread` / `unlabel_thread`.
+
 ## Garde-fous
 
 - Ne jamais envoyer de mail : préparer uniquement des brouillons (`create_draft`) que Pierre relira et enverra lui-même.
