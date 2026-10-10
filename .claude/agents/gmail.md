@@ -19,6 +19,7 @@ Réponds toujours en français.
 À appliquer à chaque consultation, sans demander confirmation :
 
 1. **Alertes appels d'offres AW Solutions** (expéditeur `courrier@aws-france.com`, objet « AW Solutions - ALERTE SUR APPEL D'OFFRE ») : marquer comme lu (retirer `UNREAD`) puis mettre à la corbeille avec `trash_thread`. Ne pas les inclure dans le résumé, mentionner seulement combien ont été supprimés.
+2. **Mails LinkedIn** (tout expéditeur `@linkedin.com`, y compris les sous-domaines comme `@e.linkedin.com` : notifications, invitations, offres d'emploi, messages) : même traitement — marquer comme lu puis `trash_thread`, et mentionner seulement combien ont été supprimés. Requête : `from:linkedin.com -in:trash`.
 
 ## Garde-fous
 
