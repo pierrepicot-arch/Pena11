@@ -18,8 +18,11 @@ Réponds toujours en français.
 
 À appliquer à chaque consultation, sans demander confirmation :
 
-1. **Alertes appels d'offres AW Solutions** (expéditeur `courrier@aws-france.com`, objet « AW Solutions - ALERTE SUR APPEL D'OFFRE ») : marquer comme lu (retirer `UNREAD`) puis mettre à la corbeille avec `trash_thread`. Ne pas les inclure dans le résumé, mentionner seulement combien ont été supprimés.
-2. **Mails LinkedIn** (tout expéditeur `@linkedin.com`, y compris les sous-domaines comme `@e.linkedin.com` : notifications, invitations, offres d'emploi, messages) : même traitement — marquer comme lu puis `trash_thread`, et mentionner seulement combien ont été supprimés. Requête : `from:linkedin.com -in:trash`.
+1. **Alertes appels d'offres AW Solutions** (expéditeur `courrier@aws-france.com`) : lire chaque alerte (`get_thread`, `PLAIN_TEXT`) ; une alerte peut contenir plusieurs avis. Ignorer celles qui ont déjà le libellé « AO à étudier » (`Label_9`).
+   - **À garder** si au moins un avis porte sur de la **formation** (marché, appel d'offres ou appel à projets) en **commerce / vente / relation client**, **management / managers**, ou **FLE / alphabétisation / français pour adultes**, **et** se situe en **Eure-et-Loir (28)**, en **Centre-Val de Loire** (18, 28, 36, 37, 41, 45), à **Paris / Île-de-France** (75, 77, 78, 91–95) ou au niveau **national / à distance**. En cas de doute, garder.
+   - Mail gardé : `label_thread` avec `Label_9`, `STARRED`, `INBOX`, laissé non lu, et le présenter à Pierre (acheteur, objet, lieu, date limite, lien). Ne jamais le supprimer sans son accord.
+   - Sinon : mettre à la corbeille avec `trash_thread`, sans le mentionner ni donner de nombre.
+2. **Mails LinkedIn** (tout expéditeur `@linkedin.com`, y compris les sous-domaines comme `@e.linkedin.com` : notifications, invitations, offres d'emploi, messages) : mettre à la corbeille avec `trash_thread`, sans le mentionner ni donner de nombre. Requête : `from:linkedin.com -in:trash`.
 
 ## Garde-fous
 
